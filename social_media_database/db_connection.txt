@@ -1,4 +1,9 @@
-# SQLite connection methods:
-# Python: sqlite3.connect('myapp.db')
-# Connection string: sqlite:////tmp/kavia/workspace/code-generation/user-approval-system-747-757/social_media_database/myapp.db
-# File path: /tmp/kavia/workspace/code-generation/user-approval-system-747-757/social_media_database/myapp.db
+This project uses a SQLite file database.
+
+Environment variable used by backend:
+- SQLITE_DB=./myapp.db (see .env.example)
+
+To inspect using sqlite3:
+  sqlite3 ./myapp.db
+
+Ensure the file exists or initialize via project-specific initialization scripts if provided.
